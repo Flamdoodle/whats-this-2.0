@@ -5,13 +5,17 @@ svg{
   left: 0;
 }
 
+.outer-svg-container {
+  width: 100%;
+}
+
 .svg-container{
- display: inline-block;
- position: relative;
- width: 100%;
- overflow: hidden;
- padding-bottom: 100%;
- border: 3px solid $color-rounds-border;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 100%;
+  // border: 3px solid $color-rounds-border;
 }
 
 .description-container {
@@ -20,13 +24,15 @@ svg{
   width: 100%;
   overflow: hidden;
   background-image: url('notebook.png');
-  border: 3px solid $color-rounds-border;
+  // border: 3px solid $color-rounds-border;
   padding-bottom: 100%;
+}
 
+.description-container-sm {
+  font-size: 1.6em;
 }
 
 .inner-description-container {
-
   a {
     display: block;
     position: absolute;
